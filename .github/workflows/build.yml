@@ -25,7 +25,7 @@ jobs:
       - name: פתיחת קובץ ה-ZIP של הפרויקט
         run: |
           mkdir -p src
-          unzip -q maslul-android.zip -d src
+          unzip -q maslul-app.zip -d src
           ls src/maslul-android
 
       - name: בניית ה-APK
